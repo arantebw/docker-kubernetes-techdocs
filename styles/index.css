@@ -23,6 +23,20 @@ body {
 #navbar {
   background-color: orange;
   padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar > header {
+  background-color: green;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.nav-link {
+  background-color: yellow;
+  padding: 8px;
+  margin-bottom: 16px;
 }
 
 /* Tablet */
