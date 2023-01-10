@@ -1,3 +1,9 @@
+:root {
+  --blue: #08489b;
+  --light-black: #16262d;
+  --dark-black: #141b1f;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -16,15 +22,16 @@ body {
 }
 
 #main-doc {
-  background-color: red;
+  background-color: var(--dark-black);
   padding: 16px;
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  color: white;
 }
 
 #navbar {
-  background-color: orange;
+  background-color: var(--light-black);
   padding: 16px;
   display: flex;
   flex-direction: column;
@@ -32,17 +39,20 @@ body {
 }
 
 #navbar > header {
-  background-color: green;
+  background-color: var(--blue);
+  color: white;
   padding: 16px;
 }
 
 .nav-link {
-  background-color: yellow;
+  background-color: var(--dark-black);
+  color: white;
+  text-decoration: none;
   padding: 16px;
 }
 
 .main-section {
-  background-color: blue;
+  background-color: var(--light-black);
   padding: 16px;
 }
 
