@@ -17,26 +17,33 @@ body {
 
 #main-doc {
   background-color: red;
-  padding: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 
 #navbar {
   background-color: orange;
-  padding: 8px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
+  row-gap: 16px;
 }
 
 #navbar > header {
   background-color: green;
-  padding: 8px;
-  margin-bottom: 16px;
+  padding: 16px;
 }
 
 .nav-link {
   background-color: yellow;
-  padding: 8px;
-  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.main-section {
+  background-color: blue;
+  padding: 16px;
 }
 
 /* Tablet */
