@@ -81,13 +81,13 @@ p {
   line-height: 2rem;
 }
 
-a {
+a:not(.nav-link) {
   color: white;
   text-decoration: none;
   padding-bottom: 3px;
   border-bottom: 1px dotted gray;
 }
-a:hover {
+a:not(.nav-link):hover {
   color: var(--blue);
   border-bottom: 1px solid var(--blue);
 }
