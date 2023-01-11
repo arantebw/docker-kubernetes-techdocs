@@ -71,6 +71,16 @@ body {
   border-bottom: 1px dotted gray;
 }
 
+.list-items {
+  list-style: square;
+  margin-left: 1rem;
+  line-height: 2rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
 /* Tablet */
 @media (min-width: 426px) and (max-width: 768px) {
   /* ... */
