@@ -81,6 +81,17 @@ p {
   line-height: 2rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 1px dotted gray;
+}
+a:hover {
+  color: var(--blue);
+  border-bottom: 1px solid var(--blue);
+}
+
 /* Tablet */
 @media (min-width: 426px) and (max-width: 768px) {
   /* ... */
