@@ -77,6 +77,10 @@ body {
   line-height: 2rem;
 }
 
+p {
+  line-height: 2rem;
+}
+
 /* Tablet */
 @media (min-width: 426px) and (max-width: 768px) {
   /* ... */
