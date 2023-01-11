@@ -56,9 +56,50 @@
       </section>
       <section id="How_to_use_Docker?" class="main-section">
         <header>How to use Docker?</header>
-        <p>Section 3 paragraph 1.</p>
-        <p>Section 3 paragraph 2.</p>
-        <code>docker run hello-world</code>
+        <section class="docker-commands">
+          <h3>Docker Commands</h3>
+          <article class="commands">
+            <code>docker context ls</code>
+            <p>List all of the available Docker *context* on a host machine.</p>
+          </article>
+          <article class="commands">
+            <code>docker container ls</code>
+            <p>List all of the running containers on a host machine.</p>
+          </article>
+          <article class="commands">
+            <code>docker image ls</code>
+            <p>List all of the available images on a host machine.</p>
+          </article>
+          <article class="commands">
+            <code>docker container rename &lt;container&gt; &lt;new_name&gt;</code>
+            <p>Rename an existing <code>&lt;container&gt;</code> to <code>&lt;new_name&gt;</code>.</p>
+          </article>
+          <article class="commands">
+            <code>docker run --name &lt;container&gt; -d -p 27017:27017 mongo:4.2.23</code>
+            <p>
+              Run a MongoDB server as <code>&lt;container&gt;</code> with
+              exposed port using the <code>mongo:4.2.23</code> image.
+            </p>
+          </article>
+          <article class="commands">
+            <code>docker version</code>
+            <p>Check the details of the Docker tools installed in your machine.</p>
+          </article>
+          <article class="commands">
+            <code>docker run hello-world</code>
+            <p>Download/execute the <code>hello-world</code> Docker image.</p>
+          </article>
+        </section>
+        <section class="docker-commands">
+          <h3>Docker Compose Commands</h3>
+          <article class="commands">
+            <code>docker compose up</code>
+            <p>
+              Run and/or build multiple Docker containers using a
+              <code>docker-compose.yml</code> file.
+            </p>
+          </article>
+        </section>
       </section>
       <section id="What_is_Kubernetes?" class="main-section">
         <header>What is Kubernetes?</header>

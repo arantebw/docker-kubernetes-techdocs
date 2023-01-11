@@ -4,6 +4,7 @@
   --blue: #08489b;
   --light-black: #16262d;
   --dark-black: #141b1f;
+  --code-background: #0a121b;
 }
 
 html {
@@ -90,6 +91,19 @@ a:not(.nav-link) {
 a:not(.nav-link):hover {
   color: var(--blue);
   border-bottom: 1px solid var(--blue);
+}
+
+.commands > code {
+  display: block;
+  padding: 16px;
+  border: 1px solid #000;
+  background-color: var(--code-background);
+}
+
+.docker-commands {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
 }
 
 /* Tablet */
